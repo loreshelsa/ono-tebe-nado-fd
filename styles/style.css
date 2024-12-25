@@ -28,12 +28,12 @@
 .header__links-list-item {
   list-style-type: circle;
 }
-.header__links-list-item a{
+.header__links-list-item a {
   border-bottom: 1px solid #000;
   text-decoration: none;
 }
 .header__links-list-item.header__link_active a,
-.footer__menu-link_active{
+.footer__menu-link_active {
   border-bottom: none;
   text-decoration: none;
 }
@@ -280,18 +280,18 @@ background-color: #000;
   margin-top: 180px;
   padding: 0 50px;
 }
-.address.footer__address{
+.address.footer__address {
   justify-self: start;
   width: 264px;
 }
-.address span{
+.address span {
   display: inline-block;
   padding-top: 3px;
 }
 .footer__menu {
   justify-self: center;
-  /* line-height: 1.3; */
 }
+
 .footer__menu-list {
   text-align: center;
   list-style-type: none;
