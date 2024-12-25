@@ -29,17 +29,17 @@
   list-style-type: circle;
 }
 .header__links-list-item a{
-  text-decoration: none;
   border-bottom: 1px solid #000;
+  text-decoration: none;
 }
 .header__links-list-item.header__link_active a,
 .footer__menu-link_active{
-  text-decoration: none;
   border-bottom: none;
+  text-decoration: none;
 }
 .header__links-list-item.header__links-list-item_no-bullit {
-  list-style-type: none;
   margin-right: -4px;
+  list-style-type: none;
 }
 
 .header__links-list-item.header__links-list-item_no-bullit a {
@@ -58,8 +58,8 @@
 .header__address {
   justify-self: center;
   max-width: 240px;
-  margin-left: 140px;
   margin-bottom: 4px;
+  margin-left: 140px;
 }
 
 .address {
@@ -67,8 +67,8 @@
 }
 
 .address a {
-  text-decoration: none;
   border-bottom: 1.5px solid #000;
+  text-decoration: none;
 }
 
 .cover {
@@ -131,9 +131,9 @@ background-color: #000;
 }
 
 .cover__description-text {
+  letter-spacing: -1px;
   text-transform: uppercase;
   word-spacing: 21px;
-  letter-spacing: -1px;
 }
 
 .bet-button {
@@ -189,20 +189,20 @@ background-color: #000;
 }
 .card-title {
   position: relative;
+  margin-top: -1px;
+  font-size: 22px;
+  line-height: 1.2;
   text-decoration: underline;
   text-transform: uppercase;
-  line-height: 1.2;
-  font-size: 22px;
-  margin-top: -1px;
 }
 
 .card-text {
   position: relative;
   display: flex;
   align-items: end;
+  margin-bottom: -3px;
   font-size: 20px;
   line-height: 1.2;
-  margin-bottom: -3px;
 }
 
 .lots__card-list-item.card_type_film {
@@ -230,8 +230,8 @@ background-color: #000;
 }
 
 .lots__look-more-link a {
-  text-decoration: none;
   border-bottom: 1px solid #000;
+  text-decoration: none;
 }
 
 .about {
@@ -297,8 +297,8 @@ background-color: #000;
   list-style-type: none;
 }
 .footer__menu-link {
-  text-decoration: none;
   border-bottom: 1px solid #000;
+  text-decoration: none;
 }
 .footer__social-list {
   display: flex;
