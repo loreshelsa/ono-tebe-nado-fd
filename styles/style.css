@@ -21,7 +21,7 @@
 .header__link {
   margin-left: 5px;
   border-bottom: 1px solid #000;
-  text-decoration: none; 
+  text-decoration: none;
 }
 .header__link_active,
 .footer__menu-link_active {
@@ -71,10 +71,10 @@
 }
 
 .overlay {
-position: absolute;
-inset: 0;
-opacity: 0.6;
-background-color: #000;
+  position: absolute;
+  inset: 0;
+  opacity: 0.6;
+  background-color: #000;
 }
 
 .cover-title {
@@ -82,7 +82,7 @@ background-color: #000;
   margin-bottom: 106px;
 }
 
-.cover-title, 
+.cover-title,
 .description {
   position: relative;
   z-index: 2;
@@ -91,7 +91,7 @@ background-color: #000;
 .aligned-text {
   display: block;
   margin-bottom: 20px;
-  color: #FFFFFF;
+  color: #ffffff;
   font-size: 100px;
   line-height: 115px;
   letter-spacing: 30px;
@@ -110,7 +110,7 @@ background-color: #000;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  color: #FFFFFF;
+  color: #ffffff;
   font-size: 23px;
 }
 
@@ -121,7 +121,7 @@ background-color: #000;
 }
 
 .bet-button {
-  border: 1px solid #FFFFFF;
+  border: 1px solid #ffffff;
   padding: 12px 32px 11px 31px;
   font-size: 22px;
   text-transform: uppercase;
@@ -153,8 +153,9 @@ background-color: #000;
 
 .lots__card-list-item {
   position: relative;
+  display: flex;
+  align-items: stretch;
   width: 334px;
-  height: 596px;
   min-height: 596px;
   padding: 50px 40px;
   list-style-type: none;
@@ -182,12 +183,12 @@ background-color: #000;
 .card {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
 }
 
 .card-link,
 .card-text {
-  height: 100%;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 .card-title {
   position: relative;
