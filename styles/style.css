@@ -16,8 +16,8 @@
 }
 
 .header__links-list-item {
-  list-style-type: circle;
   margin-left: -1px;
+  list-style-type: circle;
 }
 .header__link {
   margin-left: 4px;
@@ -35,8 +35,8 @@
   text-decoration: none;
 }
 .header__links-list-item.header__links-list-item_no-bullit {
-  margin-left: 0px;
   margin-right: -3px;
+  margin-left: 0px;
   list-style-type: none;
 }
 
@@ -71,7 +71,7 @@
   padding-right: 50px;
   padding-bottom: 50px;
   padding-left: 50px;
-  background-image: url("/images/cover.jpg");
+  background-image: url("../images/cover.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position-x: center;
@@ -172,14 +172,14 @@
 }
 
 .lots__card-list-item.card_type_film {
-  background-image: url(/images/card-lot-01.jpg);
+  background-image: url("../images/card-lot-01.jpg");
 }
 
 .lots__card-list-item.card_type_book {
-  background-image: url(/images/card-lot-02.jpg);
+  background-image: url("../images/card-lot-02.jpg");
 }
 .lots__card-list-item.card_type_picture {
-  background-image: url(/images/card-lot-03.jpg);
+  background-image: url("../images/card-lot-03.jpg");
 }
 
 .card-link {
